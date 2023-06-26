@@ -7,7 +7,42 @@
 </head>
 
 <body>
+	<h1>Job App Form</h1>
+	<form action ="/Submit" method="get">
 	<!-- the entire body must be written by student -->
+	<label for="name">Name</label>
+	<input required type = "text" id ="#name"><br>
+	<label for="email">Email</label>
+	<input required type = "email"id="#email"><br>
+	<label for="gender">Gender</label>
+	<input required type = "radio"id="#gender" value="Male">
+	<label for="Male">Male</label>
+	<input required type = "radio"id="#gender" value="Female">
+	<label for="Female">Female</label><br>
+	<label for="Laptop Brands">Laptop Brands</label>
+	<input type ="checkbox"id="#latop" value="Apple">
+	<label for="Apple">Apple</label>
+	<input type ="checkbox"id="#latop" value="Asus">
+	<label for="Asus">Asus</label>
+	<input type ="checkbox"id="#latop" value="HP">
+	<label for="HP">HP</label>
+	<div>
+		 <label for="age">Age</label>
+		<input required type = "number"id="#age"><br>
+	</div>
+
+	<div>
+		 <label for="dob">DOB</label>
+		<input required type = "date"id="#dob"><br>
+	</div>
+	
+	<div>
+		 <label for="password">Password</label>
+		<input required type ="password"id="#password"><br>
+	</div>
+	<div>
+		<button>Submit</button>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
